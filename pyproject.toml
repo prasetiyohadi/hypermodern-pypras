@@ -1,8 +1,13 @@
 [tool.poetry]
 name = "hypermodern-pypras"
 version = "0.1.0"
-description = ""
+description = "The hypermodern Python Pras' project"
 authors = ["Prasetiyo Hadi Purwoko <pras@deuterion.net>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://gitlab.com/prasetiyohadi/hypermodern-pypras"
+repository = "https://gitlab.com/prasetiyohadi/hypermodern-pypras"
+keywords = ["hypermodern"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
