@@ -1,7 +1,7 @@
 [flake8]
 import-order-style = google
 application-import-names = hypermodern_pypras,tests
-select = BLK,C,E,F,I,W
+select = B,B9,BLK,C,E,F,I,W
 ignore = E203,W503
 max-line-length = 88
 max-complexity = 10
