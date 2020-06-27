@@ -128,6 +128,18 @@ black = "*"
 flake8 = ">=3.0.0"
 
 [[package]]
+category = "dev"
+description = "Flake8 and pylama plugin that checks the ordering of import statements."
+name = "flake8-import-order"
+optional = false
+python-versions = "*"
+version = "0.18.1"
+
+[package.dependencies]
+pycodestyle = "*"
+setuptools = "*"
+
+[[package]]
 category = "main"
 description = "Internationalized Domain Names in Applications (IDNA)"
 name = "idna"
@@ -375,7 +387,7 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["jaraco.itertools", "func-timeout"]
 
 [metadata]
-content-hash = "f9bb89c420094ab51599a1f85c9977bf15ad0098be57a8b82c2198bc372f9011"
+content-hash = "5e075ff5dfe064bfdc8ba720de01674b6d8229f6bcd9d6c80d815ec94c91c8d4"
 python-versions = "^3.7"
 
 [metadata.files]
@@ -450,6 +462,10 @@ flake8 = [
 ]
 flake8-black = [
     {file = "flake8-black-0.2.0.tar.gz", hash = "sha256:10e7ff9f81f637a9471684e5624d6a32b11cba362b38df4e20fc8f761184440b"},
+]
+flake8-import-order = [
+    {file = "flake8-import-order-0.18.1.tar.gz", hash = "sha256:a28dc39545ea4606c1ac3c24e9d05c849c6e5444a50fb7e9cdd430fc94de6e92"},
+    {file = "flake8_import_order-0.18.1-py2.py3-none-any.whl", hash = "sha256:90a80e46886259b9c396b578d75c749801a41ee969a235e163cfe1be7afd2543"},
 ]
 idna = [
     {file = "idna-2.9-py2.py3-none-any.whl", hash = "sha256:a068a21ceac8a4d63dbfd964670474107f541babbd2250d61922f029858365fa"},
