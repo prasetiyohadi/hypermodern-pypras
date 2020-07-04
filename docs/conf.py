@@ -1,7 +1,10 @@
 """Sphinx configuration."""
+from datetime import datetime
+
+
 project = "hypermodern-pypras"
 author = "Prasetiyo Hadi Purwoko"
-copyright = f"2020, {author}"
+copyright = f"{datetime.now().year}, {author}"
 extensions = [
     "sphinx.ext.autodoc",
     "sphinx.ext.napoleon",
