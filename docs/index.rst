@@ -6,6 +6,7 @@ The Hypermodern Pypras Project
    :maxdepth: 1
 
    license
+   reference
 
 The exercise project created from the example project for the
 `Hypermodern Python <https://medium.com/@cjolowicz/hypermodern-python-d44485d9d769>`_
