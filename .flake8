@@ -1,5 +1,5 @@
 [flake8]
-per-file-ignores = tests/*:S101,D
+per-file-ignores = tests/*:S101
 import-order-style = google
 docstring-convention = google
 application-import-names = hypermodern_pypras,tests
