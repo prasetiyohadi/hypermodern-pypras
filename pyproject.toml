@@ -5,8 +5,9 @@ description = "The hypermodern Python Pras' project"
 authors = ["Prasetiyo Hadi Purwoko <pras@deuterion.net>"]
 license = "MIT"
 readme = "README.md"
-homepage = "https://gitlab.com/prasetiyohadi/hypermodern-pypras"
-repository = "https://gitlab.com/prasetiyohadi/hypermodern-pypras"
+homepage = "https://github.com/prasetiyohadi/hypermodern-pypras"
+repository = "https://github.com/prasetiyohadi/hypermodern-pypras"
+documentation = "https://hypermodern-pypras.readthedocs.io"
 keywords = ["hypermodern"]
 
 [tool.poetry.dependencies]
